@@ -1,0 +1,206 @@
+*, *:after, *:before { 	
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+
+* { 
+	margin:0; 
+	padding:0;
+ 	font-family: 'Roboto', sans-serif;
+}
+
+body, html { 
+	font-size: 100%; 
+	padding: 0; 
+	margin: 0; 
+	height: 100%;
+}
+
+body {
+ 	background: #fff;
+}
+
+/*font*/
+p {
+	color: #666666;
+	margin-bottom: 34px;
+	font-size: 13px;
+	line-height: 26px;
+	font-weight: 300;
+	letter-spacing: 0.6px;
+}
+
+a {
+	outline: none;
+	text-decoration: none;
+	color: #ccc;
+	transition: 500ms ease;
+	-moz-transition: 500ms ease;
+	-webkit-transition: 500ms ease;
+	-ms-transition: 500ms ease;
+	-o-transition: 500ms ease;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 4px;
+}
+
+a:hover {
+	opacity: 0.5;
+}
+
+#html_links {
+    float: right;
+}
+
+#html_links ul li {
+    float: left;
+    list-style: none;
+}
+
+#html_links ul li a{
+    display: block;
+    margin-left: 40px;
+    margin-top: 50px;
+    color: #666;
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: #000;
+    text-transform: uppercase;
+    border-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+#html_links ul li .selected {
+    border-bottom: 1px solid black;
+}
+
+
+.logo {
+    height: 90px;
+	margin-top: 25px;
+	float: left;
+	position: absolute;
+	transition: 500ms ease;
+	-moz-transition: 500ms ease;
+	-webkit-transition: 500ms ease;
+	-ms-transition: 500ms ease;
+	-o-transition: 500ms ease;
+}
+
+
+header {
+	width: 100%;
+	height: 140px;
+	line-height: 30px;
+	padding: 0 80px;
+	z-index: 100;
+	top: 0;
+}
+/*nav bar*/
+
+.banner {
+	width: 100%;
+	height: 500px;
+    background-color: #f3f3f3;
+	background-position: center;
+	background-size: cover;
+	overflow: hidden; 
+}
+
+footer {
+	text-align: center;
+	background-color: #f3f3f3;
+	height: 40px;    
+}
+
+footer p {
+	font-size: 13px;
+	color: #aaa;
+	letter-spacing: 0;
+	line-height: 40px;
+	margin-bottom: 0;
+}
+
+#home {
+	background-image: url('img/DSC_0287.JPG');
+}
+
+#gallery {
+    background-image: url(img/DSC_0927.JPG);
+}
+
+.banner p {
+    float: right;
+    margin-bottom: 0px;
+    color: floralwhite;
+}
+
+.content {
+    width: 660px;
+    margin: 50px auto;
+	text-align: justify;
+}
+
+.school {
+    height: 140px;
+    width: 100%;
+    line-height: 140px;
+    color: white;
+    background-image: url('img/dbes.jpg');
+}
+
+#elem:hover {
+    background-image: url('img/dbes.jpg');
+    height: 500px;
+    transition: 500ms ease;
+    color: white;
+    font-size: 50px;
+    line-height: 500px;
+}
+
+#hs:hover {
+    background-image: url('img/dbes.jpg');
+    height: 500px;
+    transition: 500ms ease;
+    color: white;
+    font-size: 25px;
+    line-height: 500px;
+}
+
+#uni:hover {
+    background-image: url('img/dbes.jpg');
+    height: 500px;
+    transition: 500ms ease;
+    color: white;
+    font-size: 40px;
+    line-height: 500px;
+}
+
+
+
+
+
+.hobbies {
+    height: 140px;
+    width: 100%;
+    line-height: 140px;
+    color: black;
+    text-align: center;
+    font-size: 100px;
+    background-color: #30b7ef;
+    font-family: 'Berlin Sans FB';
+}
+
+#photo {
+    background-image: url(img/bans.png);
+}
+
+#sports {
+    background-image: url(img/banss.png);
+}
+
+#photo:hover {
+    background-image: url(img/bans2.png);
+    transition: 1500ms ease;
+}
